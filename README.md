@@ -2,4 +2,5 @@ A very basic blog site, implemented for practicing microservices and related con
 
 Concepts implemented (working list):
   1. Async communication between microservices using event bus.
-  2. 
+  2. Containerization of services (using Docker)
+  3.
