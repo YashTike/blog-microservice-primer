@@ -10,13 +10,9 @@ app.use(cors());
 
 const posts = {};
 
-//Request to get all posts
-app.get('/posts', (req, res) => {
-    res.send(posts);
-});
 
 //Request to create a post
-app.post('/posts', async (req, res) => {
+app.post('/posts/create', async (req, res) => {
     const id = randomBytes(4).toString('hex');
     const { title } = req.body;
 
